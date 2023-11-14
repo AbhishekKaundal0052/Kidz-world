@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.books {
+  width: 200px;
+}
+
+.games,
+.crafts {
+  width: 290px;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.dis {
+  padding-left: 1vw;
+  margin-bottom: -20px;
+}
+
+.book {
+  padding: 1.2vw;
+}
+
+.cart img {
+  width: 3vw;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+header {
+  background-image: url(./assets/kw-background.png);
+  background-size: cover;
+  height: 55vh;
+  font-size: 5vh;
+  color: white;
+  padding: 2vw;
+}
+
+header h5 {
+  font-size: 20px;
+  margin-top: 1vw;
+}
+
+.section-books {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 1vw;
+  margin-bottom: 6vw;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price:hover {
+  cursor: pointer;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  font-size: 1.3vw;
+  width: 58px;
+  background-color: #6196ff;
+}
+
+.add img {
+  height: 20px;
+}
+
+.items {
+  margin: 3vw;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11vw;
+}
+
+.editor {
+  color: white;
+  margin: 0vw 5vw;
+}
+
+.editor p {
+  font-size: 2vw;
+}
+
+.editor img {
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+}
+
+.name {
+  margin: 1vw 5vw;
+  padding: 2vw;
+  color: white;
+  text-align: right;
+}
+
+.name h3 {
+  text-align: right;
+  margin: 1vw;
+  font-weight: lighter;
+}
+
+#dil {
+  color: red;
+}
